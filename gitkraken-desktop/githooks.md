@@ -1,5 +1,7 @@
 ---
 
+New line
+
 title: Git Hooks
 description: Compare your changes with diffs in GitKraken Desktop. Learn about where to access diffs, file blame, and more.
 taxonomy:
