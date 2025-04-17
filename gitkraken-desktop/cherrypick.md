@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-<kbd>Last updated: April 2025</kbd>
+<kbd>Last updated: August 2025</kbd>
 
 Sometimes you commit to one branch, when you meant to commit to another. Here's how to grab the changes you need.
 
