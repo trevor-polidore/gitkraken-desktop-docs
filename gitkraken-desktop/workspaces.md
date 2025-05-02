@@ -23,23 +23,23 @@ Workspaces are listed in the Repo Management Tab. To access the Repo Management 
 
 ## Cloud Workspaces
 
-Cloud Workspaces will be available for you to work with on any machine and the selected [teams](/start-here/teams/) within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions](/gitkraken-desktop/workspaces/#cloud-multi-repository-actions) and the ability to [work with all pull requests](/gitkraken-desktop/workspaces/#pull-requests) from these repositories. 
+Cloud Workspaces are available for you to work with on any machine and the selected [teams](/start-here/teams/) within your organization. This helps ensure that everyone is up-to-date on the same set of repositories by offering [multi-repository actions](/gitkraken-desktop/workspaces/#cloud-multi-repository-actions) and the ability to [work with all pull requests](/gitkraken-desktop/workspaces/#pull-requests) from these repositories. 
 
-<div class='embed-container embed-container--16-9'>
+<div class='embed-container--16-9'>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OIQVsNRqg1M?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Create a Cloud Workspace
 
-To create a Cloud Workspace, select <button class="button button--success button--ui button--nolink">+ New Workspace</button>.
+To create a Cloud Workspace, select <button class="button--success button--ui button--nolink">+ New Workspace</button>.
 
-<img src="/wp-content/uploads/add-new-workspace-2025.png" srcset="/wp-content/uploads/add-new-workspace-2025@2x.png" class="help-center-img img-bordered">
+<img src="/wp-content/uploads/add-new-workspace-2025.png" srcset="/wp-content/uploads/add-new-workspace-2025@2x.png" class="help-center-img ">
 
-Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. Optionally, you can also provide an icon, description and select teams or individual users to share with.
+Then, select "Cloud Workspace”, name your Workspace, selecting the hosting service, and then select repositories to add. You can also provide an icon, description and select teams or individual users to share with.
 
-<img src="/wp-content/uploads/config-cloud-workspace-2025.png" srcset="/wp-content/uploads/config-cloud-workspace-2025@2x.png" class="help-center-img img-bordered">
+<img src="/wp-content/uploads/config-cloud-workspace-2025.png" srcset="/wp-content/uploads/config-cloud-workspace-2025@2x.png" class="help-center-img ">
 
-<div class='callout callout--warning'>
+<div class='callout--warning'>
     <p>
         <strong>Note:</strong>
             The integration for the desired service must be connected under <kbd>Preferences > Integrations</kbd> to create a Cloud Workspace.
