@@ -21,6 +21,10 @@ taxonomy:
 
 Use this page to create, switch, lock, and remove Git worktrees in GitKraken Desktop when you need multiple branches checked out at the same time. Worktrees keep separate working directories while sharing the same repository history, which makes them useful for parallel feature work, testing, and review workflows.
 
+<div class='callout callout--basic'>
+    <p><strong>Tip:</strong> Use worktrees when you need multiple branches checked out simultaneously instead of repeatedly switching one working directory. They are ideal for parallel feature work, testing, and review workflows.</p>
+</div>
+
 **Requirements and limits**
 - GitKraken Desktop version: Worktrees are supported in version 10.5.0 and later
 - Worktree model: Each worktree has its own working directory and index but shares repository history with the main repo
@@ -77,6 +81,10 @@ Worktrees are useful when you want to:
 
 Once committed, changes in one worktree become visible in others.
 
+<div class='callout callout--warning'>
+    <p>Each branch can only be checked out in one worktree at a time. If a branch is already active in another worktree, you will need to switch that worktree to a different branch first.</p>
+</div>
+
 ***
 
 ## How to use worktrees in GitKraken Desktop
@@ -123,9 +131,17 @@ To remove a worktree:
 1. Right-click it in the Left Panel
 2. Select <kbd>Remove this worktree</kbd>
 
+<div class='callout callout--basic'>
+    <p><strong>Note:</strong> Removing a worktree only detaches the working directory — it does not delete the branch or any committed history.</p>
+</div>
+
 ### How to lock or unlock a worktree
 
 To change lock status:
 - Right-click the worktree and choose <kbd>Lock this worktree</kbd> or <kbd>Unlock this worktree</kbd>
 
 Locking a worktree prevents accidental changes while you work elsewhere.
+
+<div class='callout callout--basic'>
+    <p><strong>Tip:</strong> Lock worktrees that are in a stable state before switching to another one. This helps prevent unintended edits from tools or scripts that may operate across working directories.</p>
+</div>
